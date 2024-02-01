@@ -21,3 +21,13 @@
     color: gray;
     margin-top: 10px;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    
+    color: rgb(156, 156, 156);
+    
+}
