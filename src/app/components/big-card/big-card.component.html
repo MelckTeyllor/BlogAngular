@@ -10,7 +10,7 @@
 
     <div class="big-card_title">
         <h1>
-            <a href="#">
+            <a [routerLink]="['content', Id]">
                 {{ cardTitle }}
             </a>
         </h1>
@@ -18,7 +18,7 @@
 
     <div class="big-card_description">
         <p>
-            <a href="#">{{ cardDescription }}</a>
+            <a [routerLink]="['content', 'Id']">{{ cardDescription }}</a>
         </p>
     </div>
 </div>
